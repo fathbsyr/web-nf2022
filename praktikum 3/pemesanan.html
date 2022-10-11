@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pemesanan Pizza</title>
+</head>
+<body>
+	<h1>Black Goose Bistro | Pizza-on-Demand</h1>
+	<p>Our 12" wood-fired pizzas are availabel for delivery. Build your custom pizza and we'll deliver it within an hour</p>
+
+	<form action="success.html">
+
+		<p>Your Information</p>
+		<table>
+			<tr>
+				<td>Name</td>
+				<td>:
+					<input type="text" required>
+				</td>
+			</tr>
+			<tr>
+				<td>Adress</td>
+				<td>:
+					<input type="text" required>
+				</td>
+			</tr>
+			<tr>
+				<td>No Handphone</td>
+				<td>:
+					<input type="text" required>
+				</td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td>:
+					<input type="email" required>
+				</td>
+			</tr>
+			<tr>
+				<td>Delivery Instruction</td>
+				<td>:
+					<textarea cols="30" rows="5" maxlength="400" placeholder="No more than 400 characters long" required></textarea>
+				</td>
+			</tr>
+		</table>
+
+		<fieldset>
+			<legend><b>Design Your Dream Pizza</b></legend>
+
+			<h3>Crust (Choose One):</h3>
+
+			<ul style="list-style: none;">
+				<li>
+					<input type="radio" id="white" name="crust"><label for="white">Classic White</label>
+				</li>
+				<li>
+					<input type="radio" id="multi" name="crust"><label for="multi">Multi Grain</label>
+				</li>
+				<li>
+					<input type="radio" id="una" name="crust"><label for="una">Una Melt</label>
+				</li>
+				<li>
+					<input type="radio" id="cheesy" name="crust"><label for="cheesy">Cheesy Gakore</label>
+				</li>
+				<li>
+					<input type="radio" id="meat" name="crust"><label for="meat">Meat Lovers</label>
+				</li>
+			</ul>
+
+			<h3>Toppings (Choose as many as you want):</h3>
+
+			<ul style="list-style: none;">
+				<li>
+					<input type="checkbox">
+					<label for="">White Sauce</label>
+				</li>
+				<li>
+					<input type="checkbox">
+					<label for="">Mozarella Cheese</label>
+				</li>
+				<li>
+					<input type="checkbox">
+					<label for="">Peperoni</label>
+				</li>
+				<li>
+					<input type="checkbox">
+					<label for="">Mushrooms</label>
+				</li>
+				<li>
+					<input type="checkbox">
+					<label for="">Peppers</label>
+				</li>
+				<li>
+					<input type="checkbox">
+					<label for="">Pinneaple</label>
+				</li>
+				<li>
+					<input type="checkbox">
+					<label for="">Anchovise</label>
+				</li>
+			</ul>
+
+			<h3>Number</h3>
+			<label for="jml">How Many Pizza:</label>
+			<input type="number" min="1" id="jml">
+
+			<input type="submit" 
+			value="Bring me a pizza">
+			<input type="reset">
+
+		</fieldset>
+
+	</form>
+</body>
+</html>
