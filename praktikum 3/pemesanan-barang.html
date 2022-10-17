@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pemesanan turbocharger</title>
+</head>
+<body style="background-color:lightgray;widht:100%;">
+    <div>
+        <table style="border-style: groove; width: 90%; margin-left: auto; background-color: whitesmoke;">
+            <tr>
+                <td style="width: 100px;"><a href="">Home</a></td>
+                <td style="width: 200px;"><a href="">Generatate Link</a></td>
+                <td style="width: 200px;"><a href="">Transaction History</a></td>
+                <td style="width: 150px;"><a href="">Policy</a></td>
+                <td style="width: 100px;"><a href="">Logout</a></td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div style="width: 500px; float: left; text-align: center;">
+        <form method="post" enctype="multipart/form-data" action="pemesanan-sukses.html">
+            <table>
+                <tr>
+                    <td><img src="Assets/turbo-hks.webp" alt="" style="width: 200px;margin-left:200px"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="">
+                            <input type="submit" value="upload picture" style="margin-left: 180px;border: 200;">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div style="margin-left: 40%;">
+        <Form method="post" action="pemesanan-sukses.html">
+            <table>
+                <tr>
+                    <td>Title Here</td>
+                    <td>:</td>
+                    <td><input type="text" name="title"></td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>:</td>
+                    <td><textarea name="description" cols="21" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Account Number</td>
+                    <td>:</td>
+                    <td><input type="text" name="acccount number"></td>
+                </tr>
+                <tr>
+                    <td><label for="bank">Bank<label></td>
+                    <td>:</td>
+                    <td>
+                        <select name="bank" id="bank" style="width: 200px">
+                            <option value="bca">BCA</option>
+                            <option value="mandiri">Mandiri</option>
+                            <option value="bukopin">Bukopin</option>
+                            <option value="muamalat">Muamalat</option>
+                            <option value="cimb">CIMB</option>
+                            <option value="bri">BRI</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Account Holder</td>
+                    <td>:</td>
+                    <td><input type="text" name="account holder"></td>
+                </tr>
+                <tr>
+                    <td>Transaction</td>
+                    <td>:</td>
+                    <td><input type="number" name="transaction" min="1"></td>
+                </tr>
+            </table>
+            <p>if the transaction is for 3 person, choose 3 from drop-down list</p>
+            <p><input
+                style="accent-color:green;" type="checkbox">Send to Mobile Phone</p>
+            <p><input
+                style="accent-color:green;" type="checkbox">Send to Email</p>
+            <table>
+                <tr>
+                    <td>Send to Mobile Phone</td>
+                    <td>:</td>
+                    <td><input type="text" name="mobile_phone"></td>
+                </tr>
+                <tr>
+                    <td>Send to Email</td>
+                    <td>:</td>
+                    <td><input type="text" name="email"></td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <button style="background-color:darkgreen; margin-left: 170px;">Generatate Nabr Link</button>
+        </Form>
+    </div>
+</body>
+</html>
