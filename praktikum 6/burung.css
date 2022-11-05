@@ -1,0 +1,70 @@
+body {
+    background-color: beige;
+}
+
+div > h1 {
+    color: blue;
+}
+
+
+blockquote {
+    background-color: yellow;
+}
+
+#header {
+    background-color: chocolate;
+    text-align: center;
+    padding: 10px;
+}
+
+.B {
+    display: inline;
+    color: blue;
+    font-size: 50px;
+}
+
+.gambar {
+    width: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.koleksi {
+    background-color: yellow;
+}
+
+.koleksi img {
+    width: 23%;
+}
+
+.promo {
+    margin: auto;
+    width: 50%;
+}
+
+h2 {
+    text-align: center;
+    color: magenta;
+}
+.promo h3 {
+    background-color: blueviolet;
+    border: 5px solid blue;
+    text-align: center;
+    font-weight: bold;
+    color: green;
+}
+
+.nav li {
+    margin: 20px;
+    background-color: blue;
+    padding: 5px;
+}
+
+.nav {
+    background-color: rgb(194, 55, 55);
+}
+
+.nav a {
+    color: white;
+}
