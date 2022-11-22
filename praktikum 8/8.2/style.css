@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+header {
+    background-color: yellow;
+    padding: 1rem;
+}
+main {
+    display: flex;
+    flex: 1;
+}
+main article {
+    flex: 2;
+    order: 2;
+}
+main aside {
+    background-color: magenta;
+    flex: 1;
+    order: 1;
+}
+main nav {
+    background-color: cyan;
+    flex: 1;
+    order: 3;
+}
+footer {
+    background-color: yellow;
+    padding: 1rem;
+}
